@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".PlayGameActivity">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.pangchavez.lottopseudo.TopFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fragment"
+        android:layout_toLeftOf="@id/txtAttemptsRemaining"
+        android:layout_marginRight="5dp"
+        android:layout_alignBaseline="@id/txtAttemptsRemaining"
+        android:text="Attempts remaining: " />
+    <TextView
+        android:id="@+id/txtAttemptsRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="3"
+
+        android:textSize="20sp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fragment"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/txtAttemptsRemaining"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true">
+         <TextView
+             android:id="@+id/txtGameHint"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:text="Guess the number"
+             android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/txtGuess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:hint="0 - 9"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"/>
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mainbutton"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:text="Submit"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/linkToMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorSecondary"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:text="Note: This is only a pseudo game. There's no real money."
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lotto Pseudo</string>
+    <string name="fragment_balance_label">Balance:</string>
+    <string name="about_game">About Game</string>
+    <string name="about_game_description">Lotto Pseudo, as the name implies, is a fake lotto game which simulates a guessing game. This means you don\'t really pay real money and you don\'t win real money. (But hopefully you\'ll have fun!) The logo is inspired from the logo of Lotto NZ.</string>
+    <string name="about_developer">About Developer</string>
+    <string name="about_developer_description">Pang is an enthusiastic developer who enjoys developing games and educational software. She created this game for her Android class. You can find more of her projects in GitHub.</string>
+</resources>

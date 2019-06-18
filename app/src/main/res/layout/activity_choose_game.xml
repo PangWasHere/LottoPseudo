@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ChooseGameActivity">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.pangchavez.lottopseudo.TopFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_top"/>
+
+    <LinearLayout
+        android:id="@+id/chooseGameLabelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/fragment">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a game:"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorSecondary"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guess between 0 - 9"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <Button
+                android:id="@+id/btnGuessToNine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay $2"
+                android:layout_gravity="center"
+                android:background="@drawable/mainbutton"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="for 3 attempts"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorSecondary"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guess between 0 - 50"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <Button
+                android:id="@+id/btnGuessToFifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay $5"
+                android:layout_gravity="center"
+                android:background="@drawable/mainbutton"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="for 5 attempts"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorSecondary"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
