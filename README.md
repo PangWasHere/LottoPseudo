@@ -25,3 +25,10 @@ Here are some learning resources I've used developing the application:
 
 
 **HAPPY LEARNING!**
+
+*All rights reserved*
+
+Application Icon - modified from Lotto NZ icon
+Coins Icon (From Win Pop Up) - created by [Smashicons](https://www.flaticon.com/authors/smashicons" title="Smashicons)
+Sad Smiley (From Lose Pop Up) - created by [Freepik](https://www.freepik.com/)
+No Money (From Insufficient Funds Pop Up) - created by [Eucalyp](https://www.flaticon.com/authors/eucalyp)
