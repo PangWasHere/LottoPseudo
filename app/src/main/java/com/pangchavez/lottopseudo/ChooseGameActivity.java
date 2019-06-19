@@ -22,9 +22,11 @@ public class ChooseGameActivity extends AppCompatActivity implements TopFragment
     Dialog gameDialog;
     MediaPlayer soundPay;
 
+    // These constants are used to access the StringExtra placed in the Intent
     public static final String EXTRA_MAXIMUM_NUMBER = "MAXIMUM NUMBER";
     public static final String EXTRA_NUMBER_OF_ATTEMPTS = "NUMBER OF ATTEMPTS";
 
+    // There constants are used for SharedPreferences
     public static final String SHARED_PREFS_NAME = "Player Account Balance";
     public static final String SHARED_PREFS_TEXT = "Account Balance";
 
@@ -70,6 +72,7 @@ public class ChooseGameActivity extends AppCompatActivity implements TopFragment
             public void onClick(View v) {
 
                 // Deduct $5 from balance
+
                 if(topFragment.DeductFromBalance(5)){
                     gameIntent.putExtra(EXTRA_MAXIMUM_NUMBER, 50);
                     gameIntent.putExtra(EXTRA_NUMBER_OF_ATTEMPTS, 5);
@@ -84,6 +87,7 @@ public class ChooseGameActivity extends AppCompatActivity implements TopFragment
             }
         });
 
+        // Retrieve the saved balance
         loadData();
     }
 

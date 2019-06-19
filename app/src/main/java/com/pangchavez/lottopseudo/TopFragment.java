@@ -14,12 +14,7 @@ import android.widget.TextView;
 
 
 /**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link TopFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link TopFragment#newInstance} factory method to
- * create an instance of this fragment.
+ * This is the top fragment that displays the app logo and current balance
  */
 public class TopFragment extends Fragment {
 

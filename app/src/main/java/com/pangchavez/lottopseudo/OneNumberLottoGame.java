@@ -12,9 +12,9 @@ public class OneNumberLottoGame {
      /*
 
             Quick Guide to the Prizes:
-            For games with 1 - 9 range:
+            For games with 0 - 9 range:
             1st attempt = $10, 2nd attempt = $5, 3rd attempt = $2
-            For games with 1 - 50 range:
+            For games with 0 - 50 range:
             1st attempt = $100, 2nd attempt = $50, 3rd attempt = $25
 
       */

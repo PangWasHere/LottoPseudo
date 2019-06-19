@@ -1,5 +1,7 @@
 package com.pangchavez.lottopseudo;
 
+
+// TODO: Use this class when MultiplePlayers is implemented
 public class PlayerAccount {
 
     double currentBalance;

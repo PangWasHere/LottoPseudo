@@ -20,4 +20,6 @@ public class AboutActivity extends AppCompatActivity {
             Intent mainMenu = new Intent(this, MainActivity.class);
             startActivity(mainMenu);
     }
+
+
 }
