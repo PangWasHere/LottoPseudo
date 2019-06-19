@@ -8,7 +8,8 @@ __Guess between 0 - 9__ for $2 and __Guess between 0 - 50__ for $5
 The application also monitors the balance of the player. Initially, the player has $10 to play. When the player attempts to play a game with insufficient funds, a pop up will show to allow the player to top up.
 
 Click the links to view the snapshots of the application.
-*They're quite large*
+
+*They're quite large.*
 
 - [Main Activity](https://github.com/PangWasHere/LottoPseudo/tree/master/snapshots/main_activity.png)
 - [About Activity](https://github.com/PangWasHere/LottoPseudo/tree/master/snapshots/about_activity.png)
@@ -28,7 +29,7 @@ Here are some learning resources I've used developing the application:
 
 *All rights reserved*
 
-Application Icon - modified from Lotto NZ icon
-Coins Icon (From Win Pop Up) - created by [Smashicons](https://www.flaticon.com/authors/smashicons" title="Smashicons)
-Sad Smiley (From Lose Pop Up) - created by [Freepik](https://www.freepik.com/)
-No Money (From Insufficient Funds Pop Up) - created by [Eucalyp](https://www.flaticon.com/authors/eucalyp)
+- Application Icon - modified from Lotto NZ icon
+- Coins Icon (From Win Pop Up) - created by [Smashicons](https://www.flaticon.com/authors/smashicons")
+- Sad Smiley (From Lose Pop Up) - created by [Freepik](https://www.freepik.com/)
+- No Money (From Insufficient Funds Pop Up) - created by [Eucalyp](https://www.flaticon.com/authors/eucalyp)
